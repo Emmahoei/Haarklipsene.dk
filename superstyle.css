@@ -16,10 +16,38 @@ header h1 span {
 
 }
 
+
+nav {
+	text-align: center;
+	margin: 1em 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+	margin: 0 1em;
+}
+nav li a {
+	color: black;
+	text-decoration: none;
+}
+nav li a:hover {
+	text-decoration: underline;
+}
+
+
 main.forside p {
 	font-family: 'Sacramento', cursive;
 	text-align: center;
 	margin: 0 10vw 1em 10vw;
+}
+
+main.shop {
+	
 }
 
 .billede {
@@ -29,4 +57,5 @@ main.forside p {
 img.irc_mi {
 	margin: 0 30%;
 	width: 40%;
+	box-shadow: 2px 2px 5px gray;
 }
